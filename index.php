@@ -7,6 +7,7 @@ if (php_sapi_name() == 'cli-server' && preg_match('/\.(?:png|jpg|jpeg|gif|css|js
 session_start();
 
 //set php ini so the page doesn't time out for long requests
+// i have done modification 
 ini_set('max_execution_time', 300);
 
 //sets up autoloading of composer dependencies
